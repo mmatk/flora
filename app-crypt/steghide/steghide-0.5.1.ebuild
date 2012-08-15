@@ -20,7 +20,6 @@ DEPEND=">=app-crypt/mhash-0.8.18-r1
 RDEPEND="${DEPEND}"
 
 src_prepare(){
-	export CXXFLAGS="$CXXFLAGS -std=c++0x"
 	epatch "${FILESDIR}"/${P}-gcc34.patch \
 		"${FILESDIR}"/${P}-gcc4.patch \
 		"${FILESDIR}"/${P}-gcc43.patch
