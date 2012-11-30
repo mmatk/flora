@@ -20,7 +20,7 @@ HOMEPAGE="http://handbrake.fr/"
 LICENSE="GPL-2"
 SLOT="0"
 
-KEYWORDS="~amd64"
+KEYWORDS=""
 
 IUSE="css gtk gst ffmpeg2"
 RDEPEND="sys-libs/zlib

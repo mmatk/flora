@@ -45,7 +45,7 @@ unset SRC_CONTRIB
 
 LICENSE="GPL-2 GPL-3 BSD MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~*"
 IUSE="gtk gst ffmpeg2"
 
 # fribidi is necessary to compile libass
