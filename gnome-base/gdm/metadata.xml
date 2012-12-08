@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
+<maintainer>
+        <email></email>
+        <name>davex25 on github</name>
+</maintainer>
 <herd>gnome</herd>
 <use>
 	<flag name="audit">Enable support for <pkg>sys-process/audit</pkg></flag>
