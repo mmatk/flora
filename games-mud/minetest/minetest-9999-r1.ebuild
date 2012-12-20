@@ -1,11 +1,11 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=4
-inherit eutils cmake-utils gnome2-utils vcs-snapshot user games
+inherit eutils cmake-utils git-2 gnome2-utils vcs-snapshot user games
 
 DESCRIPTION="An InfiniMiner/Minecraft inspired game"
 HOMEPAGE="http://c55.me/minetest/"
-SRC_URI="http://github.com/celeron55/minetest/tarball/${PV} -> ${P}.tar.gz"
+GIT_REPO_URI="git://github.com/celeron55/${PN}.git"
 
 LICENSE="LGPL-2.1+ CCPL-Attribution-ShareAlike-3.0"
 SLOT="0"
@@ -13,9 +13,8 @@ KEYWORDS="~*"
 IUSE="dedicated nls +server"
 
 RDEPEND="dev-db/sqlite:3
-	dev-lang/lua
-	>=dev-libs/jthread-1.2
 	sys-libs/zlib
+	=dev-libs/jthread-1.2.1-r1
 	!dedicated? (
 		app-arch/bzip2
 		media-libs/libogg
@@ -42,16 +41,10 @@ pkg_setup() {
 }
 
 src_unpack() {
-	vcs-snapshot_src_unpack
+	git-2_src_unpack
 }
 
 src_prepare() {
-	epatch \
-		"${FILESDIR}"/${P}-jthread.patch \
-		"${FILESDIR}"/${P}-lua.patch
-
-	rm -r src/{jthread,lua,sqlite} || die
-
 	# set paths
 	sed \
 		-e "s#@BINDIR@#${GAMES_BINDIR}#g" \
