@@ -15,6 +15,7 @@
 		<flag name="X">Use libX11 to enable restoring terminal titles on exit</flag>
 		<flag name="gtk">Use GTK to determine mimetypes</flag>
 		<flag name="vim-plugin">Install the vifm vim plugin</flag>
+		<flag name="vim-syntax">Enable syntax highlighting in vifm config file</flag>
 	</use>
 	<upstream>
 		<changelog>http://vifm.sourceforge.net</changelog>
