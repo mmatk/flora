@@ -47,6 +47,8 @@ pkg_setup() {
 src_prepare() {
 	rm -r ext #delete bundled libs
 	epatch "${FILESDIR}/${P}-unbundle-libpng.patch"
+	# apply upstream changeset 3949 to remove memory leak warning on console
+	epatch "${FILESDIR}/${P}-fix-memory-leak.patch"
 }
 
 # Compile is only succesfull with one thread
