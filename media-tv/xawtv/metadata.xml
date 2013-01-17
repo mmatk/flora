@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+  	<maintainer>
+		<email>henkjans_bagger@hotmail.com</email>
+		<name>Moesasji</name>
+	</maintainer>
+	<use>
+		<flag name="aalib">Adds support for media-libs/aalib(Ascii-Graphics Library)</flag>
+		<flag name="alsa"> Adds support for media-libs/alsa-lib(Advanced Linux Sound Architecture)</flag>
+		<flag name="dv"> Add support for a codec used by many camcorders</flag>
+		<flag name="lirc"> Adds support for lirc (Linux's Infra-Red Remote Control)</flag>
+		<flag name="mmx"> Adds support for optimizations for Pentium MMX and Athlon class processors</flag>
+		<flag name="motif"> Adds support for motif toolkit, recommended to enable by author</flag>
+		<flag name="xft"> build with support for XFT font renderer(x11-libs/libXft)</flag>
+		<flag name="opengl"> Adds support for 3D graphics using opengl</flag>
+		<flag name="quicktime"> Adds support fro OpenQuickTime</flag>
+		<flag name="X"> Adds support for X11</flag>
+		<flag name="xv"> Adds in optional support for the Xvideo extension (an X api for video playback)</flag>
+		<flag name="xext"> Enable use of XFree extensions (DGA,VidMode,DPMS)</flag>
+		<flag name="zvbi"> Enable VBI Decoding Library for Zapping</flag>
+	</use>
+	<upstream>
+		<changelog>http://git.linuxtv.org/xawtv3.git</changelog>
+	</upstream>
+</pkgmetadata>
