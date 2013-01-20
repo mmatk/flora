@@ -5,15 +5,15 @@ EAPI="2"
 
 RESTRICT="mirror"
 
-#ESVN_REPO_URI="svn://svn.handbrake.fr/HandBrake/trunk"
-EGIT_REPO_URI="git://github.com/HandBrake/HandBrake.git"
-EGIT_PROJECT="HandBrake"
+ESVN_REPO_URI="svn://svn.handbrake.fr/HandBrake/trunk"
+#EGIT_REPO_URI="git://github.com/HandBrake/HandBrake.git"
+#EGIT_PROJECT="HandBrake"
 
 AUTOMAKE_VERSION="1.11"
 PYTHON_DEPEND="2"
 
-#inherit subversion gnome2-utils python
-inherit git-2 gnome2-utils python
+inherit subversion gnome2-utils python
+#inherit git-2 gnome2-utils python
 
 DESCRIPTION="Open-source DVD to MPEG-4 converter."
 HOMEPAGE="http://handbrake.fr/"
@@ -21,7 +21,6 @@ LICENSE="GPL-2"
 SLOT="0"
 
 KEYWORDS=""
-
 IUSE="css gtk gst ffmpeg2"
 RDEPEND="sys-libs/zlib
 	css? ( media-libs/libdvdcss )
@@ -31,7 +30,7 @@ RDEPEND="sys-libs/zlib
 			x11-libs/libnotify
 			media-libs/gstreamer
 			media-libs/gst-plugins-base
-			>=sys-fs/udev-171[gudev]
+			>=virtual/udev-171[gudev]
 	)"
 DEPEND="=sys-devel/automake-1.11*
 	=sys-devel/automake-1.4*
