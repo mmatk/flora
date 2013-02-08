@@ -1,6 +1,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+VIM_PLUGIN_VIM_VERSION=7.0
+inherit vim-plugin
+
 DESCRIPTION="vim plugin: bring GVim colorschemes to the terminal."
 HOMEPAGE="http://www.vim.org/scripts/script.php?script_id=2390"
 SRC_URI="http://www.vim.org/scripts/download_script.php?src_id=9849"
