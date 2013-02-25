@@ -1,8 +1,7 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-apps/drupal/drupal-7.17.ebuild,v 1.1 2012/11/09 22:32:44 radhermit Exp $
 
-EAPI=4
+EAPI=5
 
 inherit eutils webapp depend.php
 
@@ -13,15 +12,15 @@ HOMEPAGE="http://drupal.org/"
 SRC_URI="http://drupal.org/files/projects/${PN}-${PV}.tar.gz"
 
 LICENSE="GPL-2"
-KEYWORDS="~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha amd64 ~hppa ~ppc ~ppc64 ~sparc x86"
 IUSE="+mysql postgres sqlite"
 
 RDEPEND="dev-lang/php[gd,pdo,xml]
-	|| ( dev-php/pecl-apc dev-php/xcache )
-	dev-php/pecl-uploadprogress
-	mysql? ( || ( dev-lang/php[mysql] dev-lang/php[mysqli] ) )
-	postgres? ( dev-lang/php[postgres] )
-	sqlite? ( dev-lang/php[sqlite3] )"
+    || ( dev-php/pecl-apc dev-php/xcache )
+    dev-php/pecl-uploadprogress
+    mysql? ( || ( dev-lang/php[mysql] dev-lang/php[mysqli] ) )
+    postgres? ( dev-lang/php[postgres] )
+    sqlite? ( dev-lang/php[sqlite3] )"
 
 need_php5_httpd
 
