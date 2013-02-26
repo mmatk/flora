@@ -12,6 +12,7 @@ LICENSE="wxWinLL-3 GPL-2"
 SLOT="0"
 KEYWORDS="-* ~amd64"
 
+DEPEND=""
 RDEPEND="app-emulation/emul-linux-x86-baselibs
 	app-emulation/emul-linux-x86-gtklibs
 	app-emulation/emul-linux-x86-medialibs
