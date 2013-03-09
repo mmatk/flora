@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>                                                           
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>no-herd</herd>
+    <maintainer>
+        <email>yuyuyak@gmail.com</email>
+        <name>Mike Johnson</name>
+    </maintainer>
+    <maintainer>
+        <email>email2@domain.tld</email>
+        <name>Name of Maintainer 2</name>
+    </maintainer>
+    <use>
+        <flag name='USE-Variable-1'>Description of Variable 1</flag>
+        <flag name='...'>gtk</flag>
+        <flag name='USE-Variable-n'>Description of Variable n</flag>
+    </use>
+    <upstream>
+        <changelog>URL to Online Changelogs</changelog>
+    </upstream>
+</pkgmetadata>
