@@ -22,9 +22,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="debug libnotify"
 
-DEPEND="x11-libs/qt-gui:4
-		x11-libs/qt-dbus:4
-		libnotify? ( x11-libs/libnotify )"
+DEPEND="dev-qt/qtgui:4
+	dev-qt/qtdbus:4
+	libnotify? ( x11-libs/libnotify )"
 RDEPEND="${DEPEND}
 		sys-fs/udisks"
 
