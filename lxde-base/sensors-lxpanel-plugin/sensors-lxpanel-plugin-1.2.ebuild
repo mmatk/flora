@@ -4,13 +4,14 @@
 
 EAPI="5"
 
-inherit eutils
-
-
+inherit git-2 eutils
 
 DESCRIPTION="Display temperature/voltages/fan speeds on lxpanel through lm-sensors"
 HOMEPAGE="http://danamlund.dk/sensors_lxpanel_plugin/"
-SRC_URI="https://github.com/danamlund/${PN}/archive/master.zip"
+
+EGIT_COMMIT="v1.2"
+EGIT_REPO_URI="https://github.com/danamlund/sensors-lxpanel-plugin.git"
+S="${WORKDIR}/${PN}"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -27,7 +28,9 @@ DEPEND="
 
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}/sensors-lxpanel-plugin-master"
+src_unpack() {
+	git-2_src_unpack
+}
 
 src_prepare() {
 	epatch "${FILESDIR}"/destdir.patch
