@@ -15,26 +15,30 @@ RESTRICT="mirror"
 IUSE="
     roccat-arvo
     roccat-isku
+    roccat-iskufx
     roccat-kone
     roccat-koneplus
+    roccat-konepure
+    roccat-konextd
     roccat-kovaplus
+    roccat-lua
     roccat-pyra
     roccat-savu
 "
 
 RDEPEND="
-    x11-libs/gtk+:2
-    x11-libs/libnotify
     media-libs/libcanberra
-    virtual/libusb
-    dev-libs/libunique:1
     dev-libs/dbus-glib
-    sys-fs/udev[gudev]
+    x11-libs/gtk+:2
+    virtual/udev[gudev]
+    x11-libs/libnotify
+    dev-libs/libunique:1
+    virtual/libusb
 "
 
 pkg_unpack() {
     linux-info_pkg_setup
-    elog "Checkking for ROCCAT support..."
+    elog "Checking for ROCCAT support..."
 
     if !(linux_chkconfig_module HID_ROCCAT); then
 	eerror "You must enable ROCCAT support (as module) in your kernel."
@@ -50,9 +54,13 @@ src_configure() {
 
     use roccat-arvo && myconf="${myconf};arvo"
     use roccat-isku && myconf="${myconf};isku"
+    use roccat-iskufx && myconf="${myconf};iskufx" 
     use roccat-kone && myconf="${myconf};kone"
     use roccat-koneplus && myconf="${myconf};koneplus"
+    use roccat-konepure && myconf="${myconf};konepure"
+    use roccat-konextd && myconf="${myconf};konextd"
     use roccat-kovaplus && myconf="${myconf};kovaplus"
+    use roccat-lua && myconf="${myconf};lua"
     use roccat-pyra && myconf="${myconf};pyra"
     use roccat-savu && myconf="${myconf};savu"
 
@@ -62,10 +70,8 @@ src_configure() {
 
 pkg_postinst() {
     enewgroup roccat
+    udevadm control --reload-rules
     elog "You must be in the roccat group to use roccat-tools."
     elog "Start 'roccatgui' to start using roccat-tools."
-    elog ""
-    elog "Your must reload your udev rules:"
-    elog "	Run 'udevadm control --reload-rules && udevadm trigger --subsystem-match=usb'"
-    elog ""
 }
+
