@@ -22,7 +22,7 @@ RDEPEND="
 		>=dev-lang/python-2.3
 		gtk? ( dev-python/pygtk )
 	)
-	qt4? ( x11-libs/qt-core x11-libs/qt-gui )
+	qt4? ( dev-qt/qtcore dev-qt/qtgui )
 	v4l2? ( media-libs/libv4l )
 	X? (
 		x11-libs/libXext

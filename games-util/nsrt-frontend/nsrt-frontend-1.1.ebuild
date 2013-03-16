@@ -15,8 +15,8 @@ KEYWORDS="-* ~amd64 ~x86"
 IUSE="$(printf 'linguas_%s ' de es fr he it ja nl)"
 RESTRICT="mirror"
 
-DEPEND=">=x11-libs/qt-core-4.2
-	>=x11-libs/qt-gui-4.2"
+DEPEND=">=dev-qt/qtcore-4.2
+	>=dev-qt/qtgui-4.2"
 
 RDEPEND="games-util/nsrt-bin"
 

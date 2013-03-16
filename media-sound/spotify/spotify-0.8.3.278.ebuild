@@ -26,10 +26,10 @@ RDEPEND="${DEPEND}
 	x11-libs/libXrender
 	x11-libs/libXScrnSaver
 	x11-libs/gdk-pixbuf
-	x11-libs/qt-core:4
-	x11-libs/qt-gui:4
-	x11-libs/qt-webkit:4
-	x11-libs/qt-dbus:4
+	dev-qt/qtcore:4
+	dev-qt/qtgui:4
+	dev-qt/qtwebkit:4
+	dev-qt/qtdbus:4
 	x11-libs/gtk+:2
 	x11-libs/cairo
 	x11-libs/pango
