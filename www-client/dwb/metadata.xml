@@ -5,6 +5,14 @@
 		<email>Saint0fCloud@gmail.com</email>
 		<name>Cloud</name>
 	</maintainer>
+	<maintainer>
+		<email>henkjans_bagger@hotmail.com</email>
+		<name>Moesasji</name>
+	</maintainer>
+	<use>
+		<flag name="gtk3">Link agains <pkg>x-11-libs/gtk+3</pgk> instead of <pkg>x11-libs/gtk+2:2</pkg></flag>
+		<flag name="examples">Install example scripts</flag>
+	</use>
 	<longdescription lang="en">
 		dwb is a lightweight web browser based on the webkit web browser engine and the gtk toolkit.
 		dwb is highly customizable and can be easily configured through a web interface. It intends
