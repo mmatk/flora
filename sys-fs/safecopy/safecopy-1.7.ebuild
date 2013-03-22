@@ -5,7 +5,10 @@ EAPI=4
 
 inherit base
 
-DESCRIPTION="Data recovery tool to fault-tolerantly extract data from damaged (io-errors) devices or files."
+DESCRIPTION="safecopy is a data recovery tool which tries to extract as much data as 
+possible from a problematic (i.e. damaged sectors) source - like floppy drives, hard 
+disk partitions, CDs, tape devices, ..., where other tools like dd would fail due to 
+I/O errors."
 HOMEPAGE="http://safecopy.sourceforge.net"
 SRC_URI="mirror://sourceforge/safecopy/${P}.tar.gz"
 
