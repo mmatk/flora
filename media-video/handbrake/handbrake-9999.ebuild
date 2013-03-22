@@ -1,12 +1,11 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 2012 Funtoo Technologies
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 EAPI="2"
 
 #ESVN_REPO_URI="svn://svn.handbrake.fr/HandBrake/trunk"
-EGIT_REPO_URI="git://github.com/HandBrake/HandBrake.git"
-EGIT_PROJECT="HandBrake"
+EGIT_REPO_URI="git://github.com/HandBrake/HandBrakeMirror.git"
+EGIT_PROJECT="HandBrakeMirror"
 
 #inherit subversion gnome2-utils
 inherit git-2 gnome2-utils
@@ -36,6 +35,7 @@ DEPEND="=sys-devel/automake-1.10*
 	=sys-devel/automake-1.4*
 	=sys-devel/automake-1.9*
 	dev-lang/yasm
+	dev-libs/fribidi
 	>=dev-lang/python-2.4.6
 	|| ( >=net-misc/wget-1.11.4 >=net-misc/curl-7.19.4 )
 	$RDEPEND"
