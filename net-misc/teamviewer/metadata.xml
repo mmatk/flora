@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>                                                           
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>funtoo</herd>
-  <maintainer>
-    <email>golodhrim@funtoo.org</email>
-	<name>Rafael Fernández López</name>
-  </maintainer>
-  <longdescription lang="en">
-	  Teamviewer is a tool to connect to other systems and share the desktop
-	  in an easy way. It incorporates both the client to connect and the
-	  sever to give access to.
-  </longdescription>
+    <herd>no-herd</herd>
+    <maintainer>
+        <email>mm@maiwald.tk</email>
+        <name>Markus Maiwald</name>
+    </maintainer>
+    <use>
+        <flag name='USE-Variable-1'>Description of Variable 1</flag>
+        <flag name='...'>...</flag>
+        <flag name='USE-Variable-n'>Description of Variable n</flag>
+    </use>
+    <upstream>
+        <changelog></changelog>
+    </upstream>
 </pkgmetadata>
