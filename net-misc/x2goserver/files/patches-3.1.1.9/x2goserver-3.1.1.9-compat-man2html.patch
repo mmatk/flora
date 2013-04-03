@@ -1,0 +1,12 @@
+--- x2goserver-compat/Makefile.orig	2012-12-04 00:10:29.761689688 -0600
++++ x2goserver-compat/Makefile	2012-12-04 00:10:31.121689638 -0600
+@@ -39,9 +39,6 @@
+ build-arch:
+ 
+ build_man2html:
+-	mkdir -p $(MAN2HTML_DEST)
+-	for man_page in $(man_pages); do mkdir -p `dirname $(MAN2HTML_DEST)/$$man_page`; done
+-	for man_page in $(man_pages); do $(MAN2HTML_BIN) $(MAN2HTML_SRC)/$$man_page > $(MAN2HTML_DEST)/$$man_page.html; done
+ 
+ clean: clean_man2html
+ 

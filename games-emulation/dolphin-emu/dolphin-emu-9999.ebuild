@@ -1,6 +1,6 @@
-# Copyright 1999-2008 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
+
 EAPI="3"
 
 inherit cmake-utils eutils flag-o-matic games git-2 wxwidgets
@@ -47,8 +47,8 @@ DEPEND="${RDEPEND}
 
 src_prepare() {
 	epatch "${FILESDIR}/linking_cg_cggl.patch"
-	cmake-utils_src_prepare
 }
+
 src_configure() {
 	# Configure cmake
 	mycmakeargs="
@@ -105,6 +105,5 @@ pkg_postinst() {
 		ewarn "Rebuild with USE=wxwidgets to enable the GUI if needed."
 		echo
 	fi
-
 	games_pkg_postinst
 }

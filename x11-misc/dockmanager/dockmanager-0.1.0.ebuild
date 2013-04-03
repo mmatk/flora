@@ -1,4 +1,3 @@
-# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -57,4 +56,3 @@ pkg_postrm() {
 	gnome2_pkg_postrm
 	python_mod_cleanup dockmanager
 }
-

@@ -1,6 +1,5 @@
-# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-php/ZendFramework/ZendFramework-1.11.7.ebuild,v 1.1 2011/06/02 15:34:38 olemarkus Exp $
+# $Header: $
 
 EAPI="2"
 

@@ -1,6 +1,6 @@
-# ChangeLog for media-libs/libifp
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/libifp/ChangeLog,v 1.13 2009/10/07 16:12:45 ssuominen Exp $
+# Copyright 2008-2012 Funtoo Technologies
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
 
   07 Oct 2009; Samuli Suominen <ssuominen@gentoo.org> libifp-1.0.0.2.ebuild:
   Replace USE modules with postinst message wrt #286081, because
@@ -53,4 +53,3 @@
 
   23 Jan 2006; Patrick McLean <chutzpah@gentoo.org> +metadata.xml, +libifp-1.0.0.2.ebuild:
   Initial version, ebuild submitted by Przemyslaw Maciag <p_maciag@wp.pl>.
-

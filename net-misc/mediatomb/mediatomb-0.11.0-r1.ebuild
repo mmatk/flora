@@ -1,6 +1,7 @@
-# Copyright 1999-2008 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/mediatomb/mediatomb-0.11.0.ebuild,v 1.6 2008/10/25 22:02:27 pvdabeel Exp $
+# $Header: $
+
+EAPI="2"
 
 inherit eutils autotools
 

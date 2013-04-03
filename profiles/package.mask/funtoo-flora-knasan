@@ -1,0 +1,12 @@
+##############################################################
+## Mask for makehuman
+##############################################################
+#
+# There is no ebuild of MakeHuman in gentoo.
+# MakeHuman is masked because it is not tested enough.
+#
+##############################################################
+
+# not yet been sufficiently tested
+=media-gfx/makehuman-1.0.6.999
+

@@ -1,6 +1,5 @@
-# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-sound/jack/jack-3.1.1-r1.ebuild,v 1.1 2010/06/17 22:10:24 sping Exp $
+# $Header: $
 
 EAPI="3"
 PYTHON_DEPEND="2"

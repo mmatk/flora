@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+<herd>web-apps</herd>
+</pkgmetadata>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>web-apps</herd>
+	<maintainer>
+		<email>mail@marc-richter.info</email>
+		<name>Marc "Judge" Richter</name>
+	</maintainer>
+	<longdescription>
+		<pkg>Drupal is a free software package that allows you to easily organize, manage and publish your content, with an endless variety of customization.</pkg>
+	</longdescription>
+</pkgmetadata>

@@ -1,3 +1,5 @@
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
 
 VIM_PLUGIN_VIM_VERSION=7.0
 inherit vim-plugin
@@ -8,6 +10,7 @@ SRC_URI="http://www.vim.org/scripts/download_script.php?src_id=9849"
 KEYWORDS="~amd64 ~x86"
 LICENSE=""
 IUSE=""
+SLOT="0"
 
 MY_PN="CSApprox"
 

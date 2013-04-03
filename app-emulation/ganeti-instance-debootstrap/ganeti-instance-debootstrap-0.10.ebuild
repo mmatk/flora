@@ -1,5 +1,5 @@
-# Copyright 2007-2012 Funtoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+# $Header: $
 
 EAPI=2
 

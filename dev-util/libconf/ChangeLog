@@ -1,6 +1,6 @@
-# ChangeLog for dev-util/libconf
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-util/libconf/ChangeLog,v 1.50 2009/12/09 15:56:20 scarabeus Exp $
+# Copyright 2008-2012 Funtoo Technologies
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
 
   09 Dec 2009; Tomáš Chvátal <scarabeus@gentoo.org>
   libconf-0.42.10-r2.ebuild:
@@ -222,4 +222,3 @@
   New abstraction library and utilities for interacting with configuration
   files. The app/lib itself is written by Dams (at gentoo dot org). Seemant
   committed it to portage.
-

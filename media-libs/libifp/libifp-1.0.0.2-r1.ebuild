@@ -1,6 +1,5 @@
-# Copyright 1999-2008 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/media-libs/libifp/libifp-1.0.0.2.ebuild,v 1.9 2006/07/18 17:34:31 tsunam Exp $
+# $Header: $
 
 DESCRIPTION="A general-purpose library-driver for iRiver's iFP portable audio players."
 HOMEPAGE="http://ifp-driver.sourceforge.net/libifp/"

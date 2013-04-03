@@ -1,4 +1,3 @@
-# Copyright 1999-2011 Funtoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -40,4 +39,3 @@ src_install(){
 	insinto /etc
 	doins ${FILESDIR}/oblogout.conf || die
 }
-

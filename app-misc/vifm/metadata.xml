@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>wired@gentoo.org</email>
+		<name>Alex Alexander</name>
+	</maintainer>
+	<maintainer>
+		<email>henkjans_bagger@hotmail.com</email>
+		<name>Moesasji</name>
+	</maintainer>
+	<use>
+		<flag name="extended-keys">Support for extended keys (arrows, home etc)</flag>
+		<flag name="magic">Use libmagic to determine mimetypes</flag>
+		<flag name="X">Use libX11 to enable restoring terminal titles on exit</flag>
+		<flag name="gtk">Use GTK to determine mimetypes</flag>
+		<flag name="vim-plugin">Install the vifm vim plugin</flag>
+		<flag name="vim-syntax">Enable syntax highlighting in vifm config file</flag>
+	</use>
+	<upstream>
+		<changelog>http://vifm.sourceforge.net</changelog>
+	</upstream>
+	<longdescription>
+		Vifm is a ncurses based file manager with vi like keybindings. If you
+		use vi, vifm gives you complete keyboard control over your files without
+		having to learn a new set of commands.
+	</longdescription>
+</pkgmetadata>

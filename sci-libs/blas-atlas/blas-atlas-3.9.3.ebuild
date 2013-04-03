@@ -1,6 +1,5 @@
-# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sci-libs/blas-atlas/blas-atlas-3.9.3.ebuild,v 1.8 2010/12/17 08:09:04 jlec Exp $
+# $Header: $
 
 inherit eutils toolchain-funcs multilib
 

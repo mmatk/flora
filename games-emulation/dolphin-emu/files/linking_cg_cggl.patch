@@ -1,11 +1,12 @@
---- ./Source/Plugins/Plugin_VideoOGL/CMakeLists.txt.org	2011-02-03 22:04:52.045117998 +0100
-+++ ./Source/Plugins/Plugin_VideoOGL/CMakeLists.txt	2011-02-03 22:05:05.549117997 +0100
+diff -urN dolphin-emu-9999/Source/Plugins/Plugin_VideoOGL/CMakeLists.txt dolphin-emu-9999-fixed/Source/Plugins/Plugin_VideoOGL/CMakeLists.txt
+--- dolphin-emu-9999/Source/Plugins/Plugin_VideoOGL/CMakeLists.txt	2012-09-18 05:25:40.114900779 +0000
++++ dolphin-emu-9999-fixed/Source/Plugins/Plugin_VideoOGL/CMakeLists.txt	2012-09-18 05:27:04.781931070 +0000
 @@ -23,7 +23,7 @@
  endif(wxWidgets_FOUND)
  
- if(APPLE OR WIN32 OR ${CMAKE_SYSTEM_NAME} MATCHES "Linux")
+ if(WIN32 OR ${CMAKE_SYSTEM_NAME} MATCHES "Linux")
 -	set(LIBS	${LIBS} Cg CgGL)
 +	set(LIBS	${LIBS} ${CG} ${CGGL})
+ elseif(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
+ 	list(APPEND LIBS "${CMAKE_SOURCE_DIR}/Externals/Cg/Cg.framework")
  endif()
- 
- if(NOT ${CMAKE_SYSTEM_NAME} MATCHES "Darwin")

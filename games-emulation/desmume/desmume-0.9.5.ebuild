@@ -1,6 +1,5 @@
-# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/games-emulation/desmume/desmume-0.9.5.ebuild,v 1.4 2011/03/01 07:31:40 mr_bones_ Exp $
+# $Header: $
 
 EAPI="2"
 

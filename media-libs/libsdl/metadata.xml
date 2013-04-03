@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>games</herd>
+  <maintainer>
+    <email>rh1@funtoo.org</email>
+    <name>Ryan Harris</name>
+  </maintainer>
   <longdescription>
 Simple DirectMedia Layer is a cross-platform multimedia library designed 
 to provide low level access to audio, keyboard, mouse, joystick, 3D 

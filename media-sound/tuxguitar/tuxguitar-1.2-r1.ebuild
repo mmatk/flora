@@ -1,6 +1,5 @@
-# Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /home/robert/ebuilds/tuxguitar-1.2-r1.ebuild,v 1.2 2009/11/13 16:12:45 robert Exp $
+# $Header: $
 
 EAPI="2"
 JAVA_PKG_IUSE="source"

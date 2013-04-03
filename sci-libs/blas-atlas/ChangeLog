@@ -1,6 +1,6 @@
-# ChangeLog for sci-libs/blas-atlas
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/sci-libs/blas-atlas/ChangeLog,v 1.103 2010/12/17 08:09:04 jlec Exp $
+# Copyright 2008-2012 Funtoo Technologies
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
 
   17 Dec 2010; Justin Lecher <jlec@gentoo.org> blas-atlas-3.8.0.ebuild,
   blas-atlas-3.8.2.ebuild, blas-atlas-3.9.3.ebuild, blas-atlas-3.9.21.ebuild,

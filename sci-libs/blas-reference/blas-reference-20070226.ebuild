@@ -1,6 +1,5 @@
-# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sci-libs/blas-reference/blas-reference-20070226.ebuild,v 1.21 2010/12/17 13:35:46 jlec Exp $
+# $Header: $
 
 inherit eutils autotools multilib flag-o-matic toolchain-funcs
 

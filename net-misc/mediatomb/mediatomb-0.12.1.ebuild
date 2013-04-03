@@ -1,6 +1,5 @@
-# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-misc/mediatomb/mediatomb-0.12.1.ebuild,v 1.3 2010/04/18 12:29:11 maekke Exp $
+# $Header: $
 
 EAPI=2
 inherit eutils linux-info
