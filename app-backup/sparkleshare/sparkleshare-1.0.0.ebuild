@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 2008-2012 Funtoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -6,7 +6,7 @@ EAPI="4"
 
 inherit gnome2
 
-DESCRIPTION="A collaboration and sharing tool that is designed to keep things simple and to stay out of your way."
+DESCRIPTION="A git based collaboration and sharing tool that is designed to keep things simple and to stay out of your way."
 HOMEPAGE="http://sparkleshare.org/"
 SRC_URI="https://github.com/downloads/hbons/SparkleShare/${PN}-linux-${PV}.tar.gz"
 
